@@ -41,4 +41,6 @@
   ![web1](https://user-images.githubusercontent.com/74667017/104016483-48395700-516b-11eb-982c-fe52cd346554.png)
   **WHEN YOU CLICK ENTERMARK BUTTON**
   ![WEE2](https://user-images.githubusercontent.com/74667017/104016997-2b515380-516c-11eb-9632-160665cfcbfb.png)
+  **WHEN YOU CLICK LEADERBOARD BUTTON**
+  ![web3](https://user-images.githubusercontent.com/74667017/104017143-6bb0d180-516c-11eb-8bee-90ceb3dbea66.png)
           
