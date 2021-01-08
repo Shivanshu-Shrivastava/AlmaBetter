@@ -39,4 +39,6 @@
       
 # MY SITE LOOKS LIKE THIS:
   ![web1](https://user-images.githubusercontent.com/74667017/104016483-48395700-516b-11eb-982c-fe52cd346554.png)
+  **WHEN YOU CLICK ENTERMARK BUTTON**
+  ![WEE2](https://user-images.githubusercontent.com/74667017/104016997-2b515380-516c-11eb-9632-160665cfcbfb.png)
           
