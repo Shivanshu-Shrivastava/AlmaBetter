@@ -1,0 +1,50 @@
+{% extends 'mark/base.html' %}
+
+{% block enter_marks %}
+<div class="container w-50 p-3">
+    <br/>
+    <br/>
+    <form method="post">{% csrf_token %}
+        <div class="row">
+            <div class="col-6">{{ form.as_p }}
+
+                <input type="submit" value="Submit">
+            </div>
+            <!--            start-->
+
+            <table class="table table-bordered">
+                <thead>
+
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">TOTAL</th>
+                    <td>{{ total }}</td>
+
+                </tr>
+                <tr>
+                    <th scope="row">PERCENTAGE</th>
+                    <td>{{ percentage }}%</td>
+
+                </tr>
+                <tr>
+                    <th scope="row">RANK</th>
+
+
+                    <td colspan="2">{{ Rank }}
+
+
+                    </td>
+
+                </tr>
+                </tbody>
+            </table>
+
+
+            <!--            end-->
+        </div>
+
+    </form>
+
+</div>
+{% endblock %}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+{% extends 'mark/base.html' %}
+{% block leader %}
+<div class="container">
+
+    <table class="table">
+        <thead>
+        <tr>
+            <th scope="col">RANK</th>
+            <th scope="col">NAME</th>
+            <th scope="col">PERCENTAGE</th>
+
+        </tr>
+        {% for name_of_student,new_percentage in data.items %}
+        <tr>
+            <th scope="row">{{ forloop.counter }}</th>
+            <td>{{ name_of_student }}</td>
+            <td>{{ new_percentage }}</td>
+
+        </tr>
+
+
+        {% endfor %}
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+
+
+</div>
+
+
+{% endblock %}
